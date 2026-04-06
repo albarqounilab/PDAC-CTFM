@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+data
+PDAC_ScientificReport.pdf
+
+# Environments
+.env
+.venv
+env/
+venv/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Training artifacts
+results/
+wandb/
+cache/
+lightning_logs/
+
+# Model checkpoints (large binary files — store separately)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.save
+
+# Data (patient data must not be committed)
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.nrrd
+
+# Logs
+*.log
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
