@@ -9,7 +9,11 @@ __pycache__/
 dist/
 build/
 .eggs/
-data
+# Ignore real patient data, but allow demo CSV directory
+data/*
+!data/demo/
+data/demo/*
+!data/demo/csv/
 PDAC_ScientificReport.pdf
 
 # Environments

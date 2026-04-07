@@ -1,0 +1,4 @@
+ID,N Status,G_value,Head_Localization,Tail_Localization,T_0,T_1,T_2,T_3,T_4,center,path,path_seg
+1036,1,2.0,1,0,0,0,0,0,1,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1036.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1036_seg.nii.gz
+1037,1,2.0,0,1,0,0,1,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1037.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1037_seg.nii.gz
+1038,1,3.0,1,0,0,0,0,0,1,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1038.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1038_seg.nii.gz

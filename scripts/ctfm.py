@@ -60,7 +60,10 @@ if torch.cuda.is_available():
     torch.cuda.manual_seed_all(seed)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Current CUDA Device: {torch.cuda.current_device()}")
+if torch.cuda.is_available():
+    print(f"Current CUDA Device: {torch.cuda.current_device()}")
+else:
+    print(f"Running on: {device}")
 
 roi_size = (256, 256, 128)
 

@@ -1,0 +1,9 @@
+ID,N Status,G_value,Head_Localization,Tail_Localization,T_0,T_1,T_2,T_3,T_4,center,path,path_seg
+1026,0,3.0,1,0,0,0,0,0,1,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1026.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1026_seg.nii.gz
+1027,1,3.0,0,1,1,0,0,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1027.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1027_seg.nii.gz
+1028,1,3.0,0,1,0,0,1,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1028.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1028_seg.nii.gz
+1029,1,2.0,1,0,1,0,0,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1029.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1029_seg.nii.gz
+1030,1,2.0,0,1,0,0,1,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1030.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1030_seg.nii.gz
+1031,0,2.0,1,0,0,1,0,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1031.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1031_seg.nii.gz
+1032,0,3.0,1,0,1,0,0,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1032.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1032_seg.nii.gz
+1033,0,3.0,1,0,0,1,0,0,0,Goettingen,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1033.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1033_seg.nii.gz

@@ -1,0 +1,9 @@
+ID,N Status,G_value,Head_Localization,Tail_Localization,T_0,T_1,T_2,T_3,T_4,center,path,path_seg
+1013,0,2.0,1,0,0,0,1,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1013.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1013_seg.nii.gz
+1014,1,3.0,0,1,0,0,1,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1014.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1014_seg.nii.gz
+1015,1,2.0,1,0,1,0,0,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1015.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1015_seg.nii.gz
+1016,0,2.0,0,1,0,0,0,1,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1016.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1016_seg.nii.gz
+1017,1,3.0,0,1,0,0,1,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1017.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1017_seg.nii.gz
+1018,0,2.0,0,1,0,0,1,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1018.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1018_seg.nii.gz
+1019,1,3.0,0,1,0,1,0,0,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1019.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1019_seg.nii.gz
+1020,1,2.0,1,0,0,0,0,1,0,Berlin,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1020.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1020_seg.nii.gz

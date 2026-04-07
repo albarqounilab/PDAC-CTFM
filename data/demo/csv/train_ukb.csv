@@ -1,0 +1,9 @@
+ID,N Status,G_value,Head_Localization,Tail_Localization,T_0,T_1,T_2,T_3,T_4,center,path,path_seg
+1000,0,2.0,1,0,0,1,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1000.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1000_seg.nii.gz
+1001,0,2.0,0,1,0,0,0,0,1,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1001.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1001_seg.nii.gz
+1002,0,3.0,0,1,1,0,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1002.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1002_seg.nii.gz
+1003,0,2.0,0,1,0,0,0,0,1,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1003.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1003_seg.nii.gz
+1004,0,2.0,1,0,0,1,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1004.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1004_seg.nii.gz
+1005,1,3.0,0,1,0,1,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1005.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1005_seg.nii.gz
+1006,1,3.0,1,0,0,1,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1006.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1006_seg.nii.gz
+1007,0,3.0,0,1,1,0,0,0,0,UKB,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1007.nii,/Users/dgaviria/Repositories/PDAC-CTFM/data/demo/nifti/1007_seg.nii.gz

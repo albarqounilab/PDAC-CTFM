@@ -35,6 +35,7 @@ pdac-ctfm-scientific-journal/
 │   ├── fedBN.py                         # FL baseline: FedBN
 │   ├── fedALA.py                        # FL baseline: FedALA
 │   ├── ala_module.py                    # Adaptive Layer Alignment (ALA) module for FedALA
+│   ├── generate_demo_data.py            # Generate synthetic demo data for testing
 │   ├── extract_pretrained_features.py   # Extract CT-FM features for classical ML baselines
 │   ├── eval_and_save_npz.py             # Evaluate trained models and save predictions
 │   ├── test_fl_model.py                 # Test any FL model checkpoint and generate metrics
@@ -82,7 +83,26 @@ The dataset consists of **546 patients** from three German institutions diagnose
 
 All CT volumes are contrast-enhanced abdominal scans acquired in the portal-venous phase. LNM labels are derived from postoperative histopathology and/or multidisciplinary tumor board consensus.
 
-**Data availability:** Patient data cannot be shared publicly due to privacy regulations. 
+**Data availability:** Patient data cannot be shared publicly due to privacy regulations.
+
+### Demo Data (synthetic)
+
+To verify the pipeline runs end-to-end without access to real patient data, you can generate small synthetic NIfTI volumes and matching CSV files:
+
+```bash
+python scripts/generate_demo_data.py
+```
+
+This creates `data/demo/` with tiny random 3D volumes (64×64×32) and CSV files following the same schema as the real data. Then run any script by pointing `DATA_DIR` to the generated CSVs:
+
+```bash
+export DATA_DIR=data/demo/csv
+python scripts/ctfm.py
+```
+
+> **Note:** Results from demo data are meaningless — this only demonstrates that the code executes correctly.
+
+### Using real data
 
 **Updating image paths:** Before running any script, update the `path` column in the CSV files to match the location of the CT volumes on your system. Each CSV (e.g., `train_ukb.csv`, `test_berlin.csv`) references one center's split.
 
@@ -224,7 +244,7 @@ $$p_k \propto \text{ReLU}(n_k - a \cdot d_k - \gamma \Delta_k + b)$$
 
 where $d_k$ = KL divergence of client label distribution from uniform, $\Delta_k$ = cosine distance between client and global classifier weights, and $n_k$ = number of training samples.
 
-## Citation
+<!-- ## Citation
 
 If you use this code, please cite:
 
@@ -236,6 +256,7 @@ If you use this code, please cite:
   year    = {2026}
 }
 ```
+-->
 
 ## License
 
