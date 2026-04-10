@@ -244,19 +244,21 @@ $$p_k \propto \text{ReLU}(n_k - a \cdot d_k - \gamma \Delta_k + b)$$
 
 where $d_k$ = KL divergence of client label distribution from uniform, $\Delta_k$ = cosine distance between client and global classifier weights, and $n_k$ = number of training samples.
 
-<!-- ## Citation
+## Citation
 
 If you use this code, please cite:
 
 ```bibtex
 @article{bhalla2026federated,
-  title   = {Federated {CT} Foundation Models for Multi-Center Detection of Lymph Node Metastasis in Pancreatic Cancer},
-  author  = {Bhalla, Parinishtha and Due{\~n}as Gaviria, David and Kupczyk, Patrick and Hosseini, Ali Seif Amir and Conradi, Lena and Fehrenbach, Uli and Felsenstein, Matthaeus and Ma, Dou and Semaan, Alexander and Albarqouni, Shadi},
+  author  = {Bhalla, Parinishtha and Gaviria, David D. and Kupczyk, Patrick and Hosseini, Ali Seif Amir and Conradi, Lena and Fehrenbach, Uli and Felsenstein, Matthaeus and Ma, Dou and Semaan, Alexander and Albarqouni, Shadi},
+  title   = {Federated CT foundation models for multi-center detection of lymph node metastasis in pancreatic cancer},
   journal = {Scientific Reports},
-  year    = {2026}
+  volume  = {16},
+  pages   = {12051},
+  year    = {2026},
+  doi     = {10.1038/s41598-026-47631-2}
 }
 ```
--->
 
 ## License
 
